@@ -13,9 +13,9 @@ upload, download, check file availability, and get all available list from AWS s
 
 ## Package Installation : 
 ```
-pip install aws-s3-cli
+pip install check-internet-speed
 ```
-[Pypi Package Link](https://pypi.org/project/aws-s3-cli/)
+[Pypi Package Link](https://pypi.org/project/check-internet-speed/)
 
 
 ## How to import the module:
