@@ -27,7 +27,18 @@ status = check_internet_speed()
 print(status)
 ```
 
+# Output:
 
+```json
+{
+   "date_time": "2024-10-24 12:43:42.967674",
+   "isp_provider": "NKN Core Network",
+   "isp_ip": "14.139.180.52",
+   "download_speed": 16.01,
+   "upload_speed": 65.59,
+   "speed_unit": "MBPS"
+}
+```
 
 
 
