@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 __Author__ = "Sujit Mandal"
-__version__ = "1.1"
+__Version__ = "1.3"
 import csv
 import datetime
 import errno
@@ -26,6 +26,8 @@ try:
 except ImportError:
     gzip = None
     GZIP_BASE = object
+
+__version__ = '2.1.4b1'
 
 
 class FakeShutdownEvent(object):

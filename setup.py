@@ -10,7 +10,7 @@ def readme():
 
 setup(
     name = 'check-internet-speed',
-    version = '0.0.2',
+    version = '0.0.3',
     description = "checking internet upload and download speed.",
     long_description = readme(),
     long_description_content_type = 'text/markdown',
