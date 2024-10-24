@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 __Author__ = "Sujit Mandal"
-__Version__ = "1.0"
+__version__ = "1.1"
 import csv
 import datetime
 import errno
@@ -1820,7 +1820,7 @@ def printer(string, quiet=False, debug=False, error=False, **kwargs):
         print_(out, **kwargs)
 
 
-def shell():
+def check_internet_speed():
     """Run the full speedtest.net test"""
 
     global DEBUG
@@ -2009,23 +2009,6 @@ def shell():
     return(OUTPUT)
 
 
-
-
-def check_internet_speed():
-    try:
-        #print("Processing, please wait...")
-        shell()
-
-    except KeyboardInterrupt:
-        printer('\nCancelling...', error=True)
-    except (SpeedtestException, SystemExit):
-        e = get_exception()
-        # Ignore a successful exit, or argparse exit
-        if getattr(e, 'code', 1) not in (0, 2):
-            msg = '%s' % e
-            if not msg:
-                msg = '%r' % e
-            raise SystemExit('ERROR: %s' % msg)
 
 
 if __name__ == '__main__':

@@ -1,13 +1,14 @@
 # check_internet_speed
 Check Internet Speed
+[![Downloads](https://static.pepy.tech/personalized-badge/check-internet-speed?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/check-internet-speed)[![GitHub license](https://img.shields.io/github/license/sujitmandal/check-internet-speed)](https://github.com/sujitmandal/check-internet-speed/blob/master/LICENSE) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/check-internet-speed) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/check-internet-speed) ![PyPI](https://img.shields.io/pypi/v/check-internet-speed) 
 
 
 
 
 ```
-aws s3 bucket cli
+Check Internet Speed
 
-upload, download, check file availability, and get all available list from AWS s3 bucket.
+checking internet upload and download speed.
 ```
 
 
